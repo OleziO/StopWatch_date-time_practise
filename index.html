@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://allfont.ru/allfont.css?fonts=digital-7-mono"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <header class="header-date-wrapper">
+        <p class="date"></p>
+        <p class="clock"></p>
+    </header>
+
+    <main>
+      <div class="stopwatch-wrapper">
+        <div class="stopwatch-start">
+
+          <div class="stopwatch-text">
+            <p id="hours-stopwatch">00</p> :
+            <p id="minutes-stopwatch">00</p> :
+            <p id="seconds-stopwatch">00</p>
+          </div>
+
+          <div class="stopwatch-btn-groupe">
+            <button class="btn start-stopwatch">start</button>
+            <button class="btn loop-stopwatch">loop</button>
+            <button class="btn stop-stopwatch" disabled>stop</button>
+            <button class="btn reset-stopwatch">reset</button>
+          </div>
+
+        </div>
+        <div class="stopwatch-loop-text"></div>
+      </div>
+
+      <div class="timer-wrapper">
+        <div class="timer-setting">
+          <div class="timer-text">
+            <p class="timer-number">0</p>
+            <p class="timer-minutes-text">MINUTES</p>
+          </div>
+
+          <div class="timer-btn-groupe">
+            <button class="btn plus">+</button>
+            <button class="btn minus">-</button>
+          </div>
+        </div>
+
+        <div class="timer-check-time">
+          <div class="timer-check-time__text">
+            <p class="timer_minutes">00</p> :
+            <p class="timer_seconds">00</p>
+          </div>
+
+          <div class="timer-field-btn-groupe">
+            <button class="btn start-timer">start</button>
+            <button class="btn stop-timer" disabled>stop</button>
+            <button class="btn reset-timer">reset</button>
+          </div>
+
+        </div>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
